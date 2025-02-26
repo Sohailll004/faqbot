@@ -76,6 +76,4 @@ python app.py
 3. Access the web interface at `http://127.0.0.1:5000/`
 
 
-```
-
 
