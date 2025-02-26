@@ -75,15 +75,7 @@ python app.py
 ```
 3. Access the web interface at `http://127.0.0.1:5000/`
 
-## Docker Setup
-To run the application in a Docker container:
-```bash
-docker build -t chatbot-app .
-docker run -p 5000:5000 chatbot-app
+
 ```
 
-## Future Enhancements
-- Implement more advanced NLP techniques like word embeddings.
-- Add more intents and diverse training data.
-- Integrate a frontend interface for a richer user experience.
 
