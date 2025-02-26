@@ -1,0 +1,24 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey there", "Good day", "Greetings"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Hey! Feel free to ask any questions."]
+      },
+      {
+        "tag": "product_info",
+        "patterns": ["What services do you offer?", "Tell me about your products", "What do you provide?","services"],
+        "responses": ["We offer a range of home decor solutions, including custom curtains, blinds, and upholstery.", "Our services include personalized home styling and decor consultations.", "We specialize in bespoke drapery and stylish home furnishing solutions."]
+      },
+      {
+        "tag": "pricing_info",
+        "patterns": ["What is the cost of service X?", "How much does this service cost?", "Tell me about your pricing","pricing","cost"],
+        "responses": ["Our pricing varies based on the service and customization required. Please visit our pricing page for detailed information.", "We offer competitive pricing tailored to your needs. Reach out for a custom quote.", "Costs depend on material and design choices. Let us know your requirements for a precise estimate."]
+      },
+      {
+        "tag": "support_contact",
+        "patterns": ["How can I reach customer support?", "I need help, how do I contact you?", "Where can I get assistance?","customer support number","need help"],
+        "responses": ["You can reach our support team at support@dreamdecordrapes.in.", "For assistance, call us at +123-456-7890.", "Our customer service is available through our website’s contact form. We’re here to help!"]
+      }
+    ]
+  }
